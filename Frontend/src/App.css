@@ -79,7 +79,7 @@ p {
   max-width: 1500px;
   margin: 0 auto;
   min-height: 100vh;
-  
+  background-color: #3657a4;
 }
 .authPage .container {
   flex: 1;
@@ -98,13 +98,14 @@ p {
   font-size: 1.6rem;
 }
 .authPage .container .header img {
-  width: 300px;
+  width: 120px;
   height: 120px;
   margin: 0 auto;
 }
 .authPage .container .header {
   text-align: center;
   margin-bottom: 30px;
+  color: #205174;
 }
 .authPage .container form {
   display: flex;
@@ -123,7 +124,7 @@ p {
 }
 .authPage .container form .inputTag div input,
 .authPage .container form .inputTag div select {
-  background: #87878778;
+  background: #b3d9f478;
   padding: 8px;
   border: none;
   width: 100%;
@@ -136,7 +137,7 @@ p {
 .authPage .container form .inputTag div svg {
   width: 10%;
   font-size: 1.5rem;
-  background: #2d5649;
+  background: #205174;
   height: 100%;
   padding: 8px;
   color: #fff;
@@ -148,17 +149,17 @@ p {
   margin-top: 25px;
   font-weight: 700;
   color: #fff;
-  background: #2d5649;
+  background: #205174;
   font-size: 1.2rem;
   border-radius: 7px;
 }
 .authPage .container form a {
   padding: 12px;
   text-align: center;
-  border: 1px solid #2d5649;
+  border: 1px solid #205174;
   margin-top: 25px;
   font-weight: 700;
-  color: #2d5649;
+  color: #205174;
   font-size: 1.2rem;
   text-decoration: none;
   border-radius: 7px;
@@ -172,8 +173,8 @@ p {
 }
 .authPage .banner img {
   width: 100%;
-  width: 550px;
-  height: 550px;
+  width: 400px;
+  height: 400px;
 }
 @media (max-width: 1520px) {
   .authPage {
@@ -216,7 +217,7 @@ p {
   color: #f1f3f6;
 }
 .footerShow div a:hover {
-  color: #2d5649;
+  color: #91d4bf;
   transform: scale(1.2);
   transition: all 0.3s;
 }
@@ -665,7 +666,7 @@ p {
 
 .jobDetail {
   background: #f1f3f6;
-  padding: 50px 20px;
+  padding: 50px 10px;
 }
 .jobDetail .container {
   max-width: 1500px;
@@ -700,7 +701,7 @@ p {
   border: none;
   padding: 12px 30px;
   text-decoration: none;
-  margin-top: 10px;
+  margin-top: 5px;
   width: fit-content;
 }
 @media (max-width: 1520px) {
@@ -1185,7 +1186,7 @@ nav .menu button {
 }
 nav .menu button:hover {
   color: #f1f3f6;
-  background: #184235;
+  background: #91d4bf;
   transition: all 0.3s;
   cursor: pointer;
   font-weight: 500;
@@ -1199,7 +1200,7 @@ nav .menu li a {
   position: relative;
 }
 nav .menu li a:hover {
-  color: #2d5649;
+  color: #91d4bf;
   transition: all 0.3s;
 }
 nav .menu li a::before {

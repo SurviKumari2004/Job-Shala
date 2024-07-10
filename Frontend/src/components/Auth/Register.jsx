@@ -48,8 +48,8 @@ if(isAuthorized){
       <section className="authPage">
         <div className="container">
           <div className="header">
-            <img src="/jobshala_logo(dark).png" alt="logo" />
-            <h3>Create a new account</h3>
+            {/* <img src="/jobshala_logo(dark).png" alt="logo" /> */}
+            <h3>CREATE A NEW ACCOUNT</h3>
           </div>
           <form>
             <div className="inputTag">
@@ -117,7 +117,7 @@ if(isAuthorized){
           </form>
         </div>
         <div className="banner">
-          <img src="/register.png.png" alt="login" />
+          <img src="/jobshala_logo(light).png" alt="login" />
         </div>
       </section>
     </>
